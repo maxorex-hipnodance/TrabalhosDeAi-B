@@ -37,7 +37,7 @@ def calculadora():
 
     if a == '+':
         result = soma(float(num1), float(num2))
-        print('\nResult of amount: ' + str(result))
+        print('Result of amount: ' + str(result))
         history.insert(0,f'{num1} {a} {num2} = {result}')
 
     if a == '-':
